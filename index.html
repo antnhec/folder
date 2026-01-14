@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>A-Frame Basics</title>
+    <title>A-Frame Scene with Sky</title>
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
   </head>
 
@@ -21,8 +21,8 @@
       <!-- Ground Plane -->
       <a-plane rotation="-90 0 0" width="10" height="10" color="#505c2d"></a-plane>
 
-      <!-- Pink Sky -->
-      <a-sky color="pink"></a-sky>
+      <!-- Sky using image from assets folder -->
+      <a-sky src="assets/sky.jpg"></a-sky>
 
       <!-- Camera -->
       <a-entity camera look-controls wasd-controls position="0 1.6 0"></a-entity>
@@ -30,3 +30,4 @@
     </a-scene>
   </body>
 </html>
+
